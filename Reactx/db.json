@@ -1,0 +1,27 @@
+{
+  "contas": [],
+  "tipoDeConta": [
+    {
+      "tipo": "Corrente",
+      "id": 1
+    },
+    {
+      "tipo": "Poupança",
+      "id": 2
+    }
+  ],
+  "Acoes": [
+    {
+      "tipo": "Todos",
+      "id": 1
+    },
+    {
+      "tipo": "Deposito",
+      "id": 2
+    },
+    {
+      "tipo": "Saque",
+      "id": 3
+    }
+  ]
+}
