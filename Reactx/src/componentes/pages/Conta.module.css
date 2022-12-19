@@ -1,0 +1,153 @@
+.ContaPrincipal{
+    
+    align-items: center;
+    padding: 2em 0;
+  
+}
+
+.Conta{
+    display: inline-block;
+    width: 100%;
+}
+
+
+.Conta h2{
+    display: inline-block;
+    background-color: #222;
+    color: rgb(255, 189, 66);
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 30px;
+    
+}
+
+.Conta span{
+    font-weight: bold;
+
+}
+
+.Conta p{
+    display: inline-block;
+    
+    font-size: 20px;
+    padding: 0.5em 0;
+    width: 100%;
+    margin: 0;
+    padding-left:0.5em ;
+    
+}
+
+.buttons{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-bottom:1px solid #222 ;
+    padding-bottom: 2em;
+    
+    
+}
+
+.buttons button{
+
+   width: 120px;
+   height: 40px;
+   margin-top: 1em;
+   font-size: 15px;
+   background-color: #222;
+   color: #fff;
+   transition: 0.5s;
+   
+    
+}
+
+.buttons button:hover{
+
+    color: rgb(255, 189, 66);
+       
+ }
+
+.buttons a{
+
+    margin: 0 20px;
+      
+ }
+ .tituloAcoes{
+    border-bottom: 1px solid #222;
+    padding-bottom: 2em;
+ }
+
+ .acoes{
+    
+    display: flex;
+    width: 100%;
+    text-align: center;
+
+    justify-content: space-between;
+    height: 0px;
+    align-items: center;
+    padding-top: 2em;
+   
+ }
+
+ .tituloAcoes h3{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left:2em ;
+ }
+
+
+
+ .titulo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo button{   
+        width: 130px;
+        height: 50px;
+        font-size: 18px;
+        background-color: #222;
+        color: #fff;
+        transition: 0.5s; 
+       
+}
+
+.titulo button:hover{
+    color: rgb(255, 189, 66);
+}
+
+.button{
+
+    width: 120px;
+    height: 40px;
+   
+    font-size: 15px;
+    background-color: #222;
+    color: #fff;
+    transition: 0.5s;
+    margin-right:2em ;
+  
+
+    
+     
+ }
+ 
+ .button:hover{
+ 
+     color: rgb(255, 189, 66);
+        
+  }
+
+  .cardsAcoes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contaNegativada{
+    color: red;
+  }
+
+ 
