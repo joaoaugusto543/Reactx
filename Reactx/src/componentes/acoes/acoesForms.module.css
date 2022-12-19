@@ -1,0 +1,28 @@
+.button{
+    margin-top: 2em; 
+    width: 120px;
+    height: 40px;
+   
+    font-size: 15px;
+    background-color: #222;
+    color: #fff;
+    transition: 0.5s;
+    margin-right:2em ;
+}
+
+.button:hover{
+ 
+    color: rgb(255, 189, 66);
+       
+ }
+
+ .forms{
+    margin: 0em 2.5em;
+    
+ }
+
+ .filtro{
+    display: flex;
+    justify-content: space-between;
+ }
+

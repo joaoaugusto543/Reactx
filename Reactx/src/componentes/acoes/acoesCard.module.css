@@ -1,0 +1,40 @@
+
+
+.cardAcao{
+   
+    border: 1px solid #222;
+    margin: 3em;
+    position: relative;
+}
+
+.cardAcao h4{
+
+    background-color: #222;
+    margin: 0;
+    justify-content: center;
+    color: rgb(255, 189, 66);
+    font-size: 30px;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.fechar{
+    position: absolute;
+    right: 0;
+    background-color: #222;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+
+   
+}
+
+.fechar svg{
+    font-size: 20px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.fechar svg:hover{
+    color: rgb(255, 86, 86);
+}
