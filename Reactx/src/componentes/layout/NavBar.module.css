@@ -1,12 +1,15 @@
 .cabecalho{
     background-color: #222;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cabecalho div{
     display: flex;
     height: 100px;
     align-items: center;
-    
 }
 
 .cabecalho ul{
@@ -17,13 +20,14 @@
 
 .cabecalho li{
     padding:0.5em ;
-    font-size: 25px;
+    font-size: 50px;
     color:#fff;
 }
 
 .cabecalho img{
     padding: 0.5em;
-    width: 45px;
+    width: 110px;
+    height: 110px;
 }
 
 .cabecalho a{

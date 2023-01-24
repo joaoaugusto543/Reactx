@@ -1,8 +1,6 @@
 .ContaPrincipal{
-    
     align-items: center;
     padding: 2em 0;
-  
 }
 
 .Conta{
@@ -18,19 +16,18 @@
     width: 100%;
     text-align: center;
     padding: 0.5em;
-    font-size: 30px;
+    font-size: 60px;
     
 }
 
 .Conta span{
     font-weight: bold;
-
+    font-size: 40px;
 }
 
 .Conta p{
     display: inline-block;
-    
-    font-size: 20px;
+    font-size: 40px;
     padding: 0.5em 0;
     width: 100%;
     margin: 0;
@@ -44,21 +41,18 @@
     text-align: center;
     border-bottom:1px solid #222 ;
     padding-bottom: 2em;
-    
-    
+
 }
 
 .buttons button{
-
-   width: 120px;
-   height: 40px;
+   width: 180px;
+   height: 80px;
    margin-top: 1em;
    font-size: 15px;
    background-color: #222;
    color: #fff;
    transition: 0.5s;
-   
-    
+   font-size: 25px;   
 }
 
 .buttons button:hover{
@@ -75,6 +69,7 @@
  .tituloAcoes{
     border-bottom: 1px solid #222;
     padding-bottom: 2em;
+    font-size: 40px;
  }
 
  .acoes{
@@ -105,12 +100,12 @@
 }
 
 .titulo button{   
-        width: 130px;
-        height: 50px;
-        font-size: 18px;
-        background-color: #222;
-        color: #fff;
-        transition: 0.5s; 
+    width: 130px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #222;
+    color: #fff;
+    transition: 0.5s; 
        
 }
 
@@ -120,18 +115,14 @@
 
 .button{
 
-    width: 120px;
-    height: 40px;
-   
-    font-size: 15px;
+    width: 180px;
+    height: 80px;
+    font-size: 30px;
     background-color: #222;
     color: #fff;
     transition: 0.5s;
     margin-right:2em ;
-  
-
     
-     
  }
  
  .button:hover{

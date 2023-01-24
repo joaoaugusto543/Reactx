@@ -1,18 +1,10 @@
-.contaForms{
-    
-    width: 100%;
-    align-items: center;
-    height: 70px;
-    margin-bottom: 1em;
-   
-}
+
 
 .contaForms label{
-    font-size: 20px;
+    font-size: 50px;
     padding: 0.5em 0;
     font-weight: bold;
     
-
 } 
 
 .contaForms form{
@@ -22,13 +14,17 @@
 
 } 
 
-
+#acao{
+    background-color: black;
+    margin-bottom: 2em;
+}
 
 .contaForms input{
    
-    height: 25px;
+    height: 60px;
     width: 80%;
     padding: 0.3em;
+    font-size: 30px;
    
 } 
 

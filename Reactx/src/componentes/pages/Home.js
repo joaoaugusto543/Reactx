@@ -1,6 +1,6 @@
 
 import Styles from './Home.module.css'
-import Saving from '../../imgs/savings.svg' 
+import Saving from '../../imgs/logo.png' 
 import { Link } from 'react-router-dom'
 
 function Home(){
