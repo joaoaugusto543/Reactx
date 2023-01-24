@@ -6,7 +6,7 @@ Vamos começar:
 Como utilizar:
 entre na pasta Reactx e digite no terminal npm run start e depois abra outro terminal na mesma pasta(Reactx) e digite npm run backend
 
-![CriarProjeto](https://user-images.githubusercontent.com/119535029/208479829-7d667ccf-b854-4fe5-bbcc-6d944c62fb6a.png)
+![Screenshot_1](https://user-images.githubusercontent.com/119535029/214441585-e4195165-e46d-43a0-9959-f64b41c0111d.png)
 
 Essa é a home, onde vc pode começar criando sua conta apertando no botão.
 
