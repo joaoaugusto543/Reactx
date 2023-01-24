@@ -4,7 +4,8 @@
 Vamos começar:
 
 Como utilizar:
-entre na pasta Reactx e digite no terminal npm run start e depois abra outro terminal na mesma pasta(Reactx) e digite npm run backend
+
+Primeiro entre na pasta Reactx e no terminal digite o comando npm install, depois digite no terminal npm run start e depois abra outro terminal na mesma pasta(Reactx) e digite npm run backend
 
 ![Screenshot_1](https://user-images.githubusercontent.com/119535029/214441585-e4195165-e46d-43a0-9959-f64b41c0111d.png)
 
