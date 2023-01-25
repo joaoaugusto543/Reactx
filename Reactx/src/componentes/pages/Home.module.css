@@ -10,6 +10,7 @@
 .home img{
     width: 25%;
     margin: 2em 0;
+    background-color: black;
 }
 
 .home h1,.home h2{
