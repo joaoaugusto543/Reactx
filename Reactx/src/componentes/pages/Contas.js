@@ -15,12 +15,13 @@ function Contas(){
 
     let message=''
     let messageExclusao=''
+    let messageExclusaoCaloteiro=''
    
 
     if(location.state){
         message=location.state.messageCriacao
         messageExclusao=location.state.messageExclusao
-
+        messageExclusaoCaloteiro=location.state.messageExclusaoCaloteiro
     }
 
     useEffect(()=>{
@@ -39,6 +40,7 @@ function Contas(){
         <>
    
         {messageExclusao &&(<Message message={messageExclusao} type='sucesso'/>)}
+        {messageExclusaoCaloteiro && (<Message message={messageExclusaoCaloteiro} type='error'/>)}
         {message &&(<Message message={message} type='sucesso'/>)}
         
         <div className={Styles.titulo}>
