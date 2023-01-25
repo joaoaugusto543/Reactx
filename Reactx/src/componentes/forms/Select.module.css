@@ -2,18 +2,17 @@
    margin: 1em 0;
    display: flex;
    flex-direction: column;
-   height: 200px;
+   height: 100px;
    
 }
 
 .select select{
     width: 80.7%;
-    height: 80px;
-    font-size: 30px;
+    height: 40px;
 }
 
 .select label{
-    font-size: 50px;
-    padding:0.5em 0;
+    font-size: 20px;
+    padding: 0.5em 0;
     font-weight: bold;
 }

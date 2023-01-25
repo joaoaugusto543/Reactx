@@ -24,14 +24,14 @@
     border: #222 solid 1px;
     border-radius:20px;
     left: 29%;
-
+    
 
 }
 
 .exclusao h3{
     color: rgb(255, 189, 66);
     text-align: center;
-    font-size: 50px;
+  
 } 
 
 .buttons{
@@ -40,15 +40,16 @@
     text-align: center;
     border-bottom:1px solid #222 ;
     padding-bottom: 2em;
-       
+    
+    
 }
 
 .exclusao button{
-    width: 180px;
-   height: 80px;
+    width: 120px;
+   height: 40px;
    margin: 0 1em ;
    margin-top: 2em;
-   font-size: 30px;
+   font-size: 15px;
    background-color: rgb(20, 20, 20);
    color: #fff;
    transition: 0.5s;

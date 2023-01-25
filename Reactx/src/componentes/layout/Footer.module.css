@@ -2,21 +2,15 @@
     background-color: #222;
    display: flex;
    justify-content: space-between;
-   padding: 2em;
-   height: 400px;
+   padding: 0.5em;
+   height: 190px;
 }
 
 .redes_sociais{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-left:6% ;
     margin-top: 1em;
-}
-
-
-.redes_sociais p{
-    font-size: 40px;
 }
 
 
@@ -34,7 +28,7 @@
 }
 
 .redes_sociais svg{
-    font-size: 40px;
+    font-size: 25px;
     padding: 0.3em;
 }
 
@@ -42,6 +36,6 @@
     display: flex;
     align-items: center;
     margin-right:6% ;
-    font-size: 40px;
+    font-size: 20px;
     color: #fff;
 }

@@ -14,7 +14,7 @@
     width: 96.2%;
     text-align: center;
     padding: 0.5em;
-    font-size: 50px;
+    font-size: 30px;
     
 }
 
@@ -26,7 +26,7 @@
 .Conta p{
     display: inline-block;
     
-    font-size: 40px;
+    font-size: 20px;
     padding: 0.5em 0;
     width: 100%;
     margin: 0;
@@ -35,8 +35,8 @@
 }
 
 .button{
-    width: 180px;
-    height: 80px;
+    width: 120px;
+    height: 40px;
     font-size: 16px;
     background-color: #222;
     color: #fff;

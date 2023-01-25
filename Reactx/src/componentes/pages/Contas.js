@@ -15,14 +15,11 @@ function Contas(){
 
     let message=''
     let messageExclusao=''
-    let messageExclusaoCaloteiro=''
-
    
 
     if(location.state){
         message=location.state.messageCriacao
         messageExclusao=location.state.messageExclusao
-        messageExclusaoCaloteiro=location.state.messageExclusaoCaloteiro
 
     }
 
@@ -42,7 +39,6 @@ function Contas(){
         <>
    
         {messageExclusao &&(<Message message={messageExclusao} type='sucesso'/>)}
-        {messageExclusaoCaloteiro &&(<Message message={messageExclusaoCaloteiro} type='sucesso'/>)}
         {message &&(<Message message={message} type='sucesso'/>)}
         
         <div className={Styles.titulo}>
@@ -51,7 +47,7 @@ function Contas(){
         </div>
 
         {!aparecerLoader && <Loader/>}
-        {contas && contas.length===0 &&(
+        {aparecerLoader && contas.length===0 &&(
             <h2>Você não possui conta</h2>
         )}
         <div className={Styles.conta}>

@@ -2,11 +2,13 @@
     display: flex;
     width: 100%;
     align-items: center;
-    margin-top: 2em;
+    
 }
 
 .filtro label{
-    padding: 0.5em;   
+    padding: 0.5em;
+    
+    
 }
 
 
@@ -22,10 +24,10 @@
 
 .filtro input{
     width: 40%;
-    height: 60px;
-    margin-right: 1em;
+    height: 40px;
+    margin-right: 2em;
     padding: 0.2em;
-    font-size: 30px;
+    font-size: 15px;
 
 }
 

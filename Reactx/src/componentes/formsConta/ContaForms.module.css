@@ -1,12 +1,13 @@
 .button{
-    width: 250px;
-    height: 100px;
-    font-size: 30px;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
     background-color: #222;
     color: #fff;
     transition: 0.5s; 
-    margin: 2em 0;
+    margin-bottom: 2em;
    
+
 }
 
 .button:hover{

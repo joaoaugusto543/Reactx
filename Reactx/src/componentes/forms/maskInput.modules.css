@@ -1,17 +1,19 @@
 
+
 label{
-    font-size: 50px;
+    font-size: 20px;
     padding: 0.5em 0;
     font-weight: bold;
     
+
 } 
+
 
 input{
    
-    height: 60px;
+    height: 25px;
     width: 80%;
     padding: 0.3em;
-    font-size: 30px;
    
 } 
 

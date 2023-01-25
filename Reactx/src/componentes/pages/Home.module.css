@@ -1,6 +1,6 @@
 .home{
     display: flex;
-    margin-top: 10em;
+    margin-top: 6em;
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -10,21 +10,18 @@
 .home img{
     width: 25%;
     margin: 2em 0;
-    background-color: black;
 }
 
 .home h1,.home h2{
     width: 25%;
     text-align: center;
     padding: 0.2em;
-    font-size: 50px;
-    margin-bottom: 0.5em;
 }
 
 .home button{
-   width: 300px;
-   height: 100px;
-   font-size: 30px;
+   width: 200px;
+   height: 40px;
+   font-size: 18px;
    transition: 0.5s;
    background-color: #222;
    color: #fff;
@@ -40,6 +37,5 @@
     font-weight: bold;
     color:rgb(255, 189, 66);
     background-color: #222;
-    padding: 0.5em;
-    font-size: 60px;
+    padding: 0.2em;
 }

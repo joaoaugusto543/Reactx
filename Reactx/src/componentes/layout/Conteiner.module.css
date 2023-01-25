@@ -1,8 +1,11 @@
 .container{
-    width: 90%;
+    width: 1600px;
+  
     justify-content: space-between;
-    margin: 0 5%;
-    flex-wrap: wrap; 
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+ 
 }
 
 .min_height{
