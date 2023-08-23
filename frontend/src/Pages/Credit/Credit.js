@@ -50,7 +50,13 @@ function Credit() {
   function handleValue(e){
     const moneyValue=e.target.value
 
+    const regexNumber=/^[0-9]+$/
+
     if(moneyValue==='R$ 00,000'){
+      return
+    }
+
+    if(!regexNumber.test(moneyValue.replace('R$ ','').replace(',',''))){
       return
     }
 

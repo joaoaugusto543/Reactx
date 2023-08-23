@@ -11,7 +11,7 @@ function Waiting() {
   
   useEffect(()=>{
     dispatch(resetErrors())
-  },[])
+  },[dispatch])
 
   return (
     <div className='waiting'>
