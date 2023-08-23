@@ -1,0 +1,154 @@
+.transfer{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 2em;
+    flex-direction: column;
+    position: relative;
+}
+
+.transfer form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+    padding: 0 2em;
+}
+
+.transfer label{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    position: relative;
+}
+
+.transfer label > span{
+    font-weight: bold;
+    padding: 0.5em 0;
+    font-size: 20px;
+}
+
+.transfer input,.transfer textarea{
+    height: 40px;
+    padding: 0.5em;
+    outline: none;
+}
+
+.transfer textarea{
+    height: 150px;
+}
+
+.characterCounterTransfer{
+    position: absolute;
+    bottom: 20px;
+    right: 26px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.transfer input[type='submit']{
+    background-color:rgba(2, 214, 230, 0.959);
+    transition: 0.5s;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 1.5em;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.transfer input[type='submit']:hover{
+    background-color: rgb(47, 238, 252);;
+}
+
+.successTransfer{
+    font-size: 20px;
+    margin-top: 0.5em;
+    margin-bottom: -1em;
+    font-weight: bold;
+    color: rgb(0, 240, 0);
+}
+
+.errorTransfer{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0.5em ;
+    margin-bottom: -1em;
+}
+
+@media(max-width:919px){
+    .transfer{
+        width: 100%;
+    }
+}
+
+@media(max-width:600px){
+    .transfer h1{
+        font-size: 25px;
+    }
+
+    .transfer label > span {
+        font-size: 18px;
+    }
+
+    .transfer input[type='text']{
+        height: 35px;
+    }
+
+    .transfer input[type='submit'] {     
+        width: 107px;
+        height: 35px;
+    }
+
+    .characterCounter{
+        font-size: 13px;
+    }
+
+    .transfer textarea{
+        font-size: 13px;
+    }
+
+    .errorTransfer,.successTransfer{
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width:460px){
+    .transfer h1{
+        font-size: 20px;
+    }
+
+    .transfer label > span {
+        font-size: 14px;
+    }
+
+    .transfer input[type='text']{
+        height: 30px;
+    }
+
+    .transfer input[type='submit'] {     
+        width: 107px;
+        height: 35px;
+    }
+
+
+}
+
+@media(max-width:303px){
+    .errorTransfer{
+        padding: 0 0.5em;
+    }
+}
+
+@media(max-width:445px){
+    .transfer label{
+        width: 90%;
+    }
+}
+

@@ -1,0 +1,345 @@
+.home{
+    width: 65%;
+    position:  relative;
+    height: 100vh;
+}
+
+.content{
+    height: 100vh;
+    width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.bannerHome{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    user-select: none;
+    background-image: url('https://images.unsplash.com/photo-1581579186913-45ac3e6efe93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80' );
+    background-size: cover;
+}
+
+.bannerHome img{
+    width: 100%;
+    height: 100vh;
+}
+
+.bannerHome::before{
+    content: '';
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.code{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.codeAndHello{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    color: #fff;
+    padding: 3em;
+}
+
+.moneyAndPhrase{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 6em;
+    padding: 0 3em;
+}
+
+.phrase{
+    font-size: 25px;
+}
+
+.money{
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hello h1{
+    font-size: 40px;
+    margin-bottom: 0.5em;
+}
+
+.hello p{
+    font-size: 20px;
+}
+
+.phraseTwo,.phraseOne{
+    color: transparent;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.phraseOne{
+    position: absolute;
+    animation: toAppearPhraseOne 8s infinite linear;
+}
+
+.phraseTwo{
+    animation: toAppearPhraseTwo 8s infinite linear;
+}
+
+.actions{
+    margin-top: 3em;
+}
+
+@keyframes toAppearPhraseOne{
+    25%{
+        color: #fff;
+    }
+
+    50%{
+        color: #fff;
+    }
+
+    75%{
+        color: transparent;
+    }
+
+    100%{
+        color: transparent;
+    }
+}
+
+@keyframes toAppearPhraseTwo{
+
+    25%{
+        color: transparent;
+    }
+
+    50%{
+        color: transparent;
+    }
+
+    75%{
+        color: transparent;
+    }
+
+    100%{
+        color: #fff;
+    }
+}
+
+.actions li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actions a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1.54em;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+}
+
+.actions a:hover{
+    background: linear-gradient(to left,#fff -134%,transparent 100%);
+}
+
+.later a{
+    border: none;
+}
+
+.debt{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0.2em;
+}
+
+
+@media(max-width:1407px){
+    .money{
+        font-size: 35px;
+    }
+    
+    .debt{
+        font-size: 16px;
+    }
+    
+    .hello h1{
+        font-size: 30px;
+    }
+
+    .hello p{
+        font-size: 16px;
+    }
+
+    .phrase{
+        font-size: 20px;
+    }
+    
+    .code{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:1165px){
+    .money{
+        font-size: 30px;
+    }
+    
+    .debt{
+        font-size: 14px;
+    }
+
+    .hello h1{
+        font-size: 20px;
+    }
+    
+    .phrase{
+        font-size: 16px;
+    }
+    
+    .actions a{
+        font-size: 20px;
+    }
+}
+
+
+
+@media(max-width:919px){
+    .home{
+        width: 100%;
+    }
+    
+
+}
+
+@media(max-width:604px){
+    .money{
+        font-size: 25px;
+    }
+
+    .code{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:504px){
+    .phraseOne,.phraseTwo{
+        width: 200px;
+    }
+}
+
+@media(max-width:456px){
+    .money{
+        font-size: 20px;
+    }
+
+    .code{
+        font-size: 18px;
+    }
+
+    .cooperative{
+        font-size: 13px;
+        margin-bottom: 0.2em;
+    }
+
+    .hello h1{
+        font-size: 18px;
+    }
+
+    .hello p{
+        font-size: 13px;
+    }
+
+    .phrase{
+        font-size: 13px;
+    }
+}
+
+@media(max-width:411px){
+    .phraseOne,.phraseTwo{
+        width: 150px;
+    }
+}
+
+@media(max-width:395px){
+    .codeAndHello{
+        padding: 2.2em 2em;
+    }
+
+    .moneyAndPhrase{
+        padding: 0 2em;
+    }
+}
+
+@media(max-width:365px){
+    .codeAndHello{
+        padding: 2.2em 1em;
+    }
+
+    .moneyAndPhrase{
+        padding: 0 1em;
+    }
+}
+
+
+@media(max-width:335px){
+    .hello{
+        width: 150px;
+    }
+
+    .code{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:297px){
+    .hello{
+        width: 130px;
+    }
+
+    .phraseOne,.phraseTwo{
+        width: 130px;
+    }
+
+}
+
+@media(max-height:832px){
+    .actions a{
+        font-size: 20px;
+    }
+}
+
+@media(max-height:727px),(max-width:456px){
+    .actions a{
+        font-size: 16px;
+    }
+
+}
+
+@media(max-height:727px){
+    .content{
+        overflow-y: scroll;
+    }
+}
+

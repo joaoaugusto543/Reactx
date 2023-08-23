@@ -1,0 +1,21 @@
+.banned{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: red;
+}
+
+.banned h1{
+    margin-bottom: 0.5em;
+}
+
+.banned a{
+    color: black;
+}
+
+.banned h1,.banned h2{
+    font-weight: bold;
+}

@@ -1,0 +1,181 @@
+.support{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 2em;
+    position: relative;
+    max-height: 100vh;
+}
+
+.support form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.support label{
+    display: flex;
+    flex-direction: column;
+}
+
+.support label{
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    position: relative;
+}
+
+.support label > span{
+    font-weight: bold;
+    padding: 0.5em 0;
+    font-size: 20px;
+}
+
+.support input,.support textarea{
+    height: 40px;
+    padding: 0.5em;
+    outline: none;
+}
+
+.support textarea{
+    height: 150px;
+}
+
+.characterCounter{
+    position: absolute;
+    bottom: 20px;
+    right: 26px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.support input[type='submit']{
+    background-color:rgba(2, 214, 230, 0.959);
+    transition: 0.5s;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 1.5em;
+    cursor: pointer;
+}
+
+.support input[type='submit']:hover{
+    background-color: rgb(47, 238, 252);;
+}
+
+.successSupport{
+    color: rgb(0, 240, 0);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0.5em ;
+}
+
+.errorSupport{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0.5em ;
+}
+
+.NoAuth{
+    width: 100%;
+}
+
+.NoAuth label{
+    width: 40%;
+}
+
+@media(max-width:919px){
+    .support{
+        width: 100%;
+    }
+}
+
+@media(max-width:676px){
+    .support h1{
+        font-size: 25px;
+    }
+
+    .support label > span {
+        font-size: 16px;
+    }
+
+    .support input[type='submit'] {
+        width: 120px;
+        height: 34px;
+    }
+
+    .support input[type='text'],.support input[type='email']{
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .support textarea{
+        font-size: 13px;
+    }
+
+    .characterCounter{
+        font-size: 13px;
+    }
+
+    .errorSupport,.successSupport{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:403px){
+    .support label{
+        width: 70%;
+    }
+}
+
+@media(max-width:426px){
+    .support h1{
+        font-size: 20px;
+    }
+
+    .support label > span{
+        font-size: 14px;
+        
+    }
+
+    .support input[type='text'],.support input[type='email']{
+        font-size: 12px;
+    }
+
+    .support textarea{
+        font-size: 12px;
+    }
+
+    .characterCounter{
+        font-size: 12px;
+    }
+
+    .support input[type='submit'] {
+        width: 108px;
+        height: 27px;
+        font-size: 13px;
+    }
+}
+
+@media(max-width:384px){
+    .support label{
+        width: 90%;
+    }
+}
+
+@media (max-height:588px){
+    .support{
+        overflow-y: scroll;
+    }
+
+    .support input[type='submit']{
+        margin-bottom: 1em;
+    }
+}

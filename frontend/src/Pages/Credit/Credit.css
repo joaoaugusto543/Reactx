@@ -1,0 +1,142 @@
+.creditPage{
+    width: 65%;
+    display: flex;
+    padding-top: 2em;
+    flex-direction: column;
+    position: relative;
+}
+
+.creditPage h1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.creditValue{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2.5em;
+}
+
+.creditValue h2{
+    font-size: 20px;
+    width: 70%;
+    margin-top: 2em;
+}
+
+.creditPage form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 2em;
+}
+
+.creditPage label{
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    position: relative;
+}
+
+.creditPage label > span{
+    font-weight: bold;
+    padding: 0.5em 0;
+    font-size: 19px;
+}
+
+.creditPage input{
+    height: 40px;
+    padding: 0.5em;
+    outline: none;
+}
+
+.creditPage input[type='submit']{
+    background-color:rgba(2, 214, 230, 0.959);
+    transition: 0.5s;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 1.5em;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.creditPage input[type='submit']:hover{
+    background-color: rgb(47, 238, 252);;
+}
+
+.errorCredit{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+    margin-bottom: -1em;
+}
+
+.successCredit{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 18px;
+    color: rgb(0, 240, 0);
+    font-weight: bold;
+    margin-bottom: -1em;
+}
+
+@media(max-width:919px){
+    .creditPage{
+        width: 100%;
+    }
+}
+
+@media(max-width:600px){
+    .creditPage h1{
+        font-size: 25px;
+    }
+
+    .creditValue h2{
+        font-size: 18px;
+    }
+
+    .creditPage label > span {
+        font-size: 18px;
+    }
+
+    .creditPage input[type='text']{
+        height: 35px;
+    }
+
+    .creditPage input[type='submit'] {     
+        width: 107px;
+        height: 35px;
+    }
+
+    .errorCredit,.successCredit{
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width:303px){
+    .errorCredit{
+        padding: 0 0.5em;
+    }
+}
+
+@media(max-width:445px){
+    .creditPage label{
+        width: 90%;
+    }
+}
+
+@media(max-width:343px){
+    .creditValue{
+        padding: 0 0.5em;
+    }
+}

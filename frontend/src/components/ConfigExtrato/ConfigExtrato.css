@@ -1,0 +1,157 @@
+.configExtrato{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    height: 100vh;
+    max-height: 100vh;
+    width: 30%;
+    transform: translateX(100%);
+    transition: 0.5s;
+    box-shadow: 9px 10px 21px 10px;
+    padding: 1.5em;
+}
+
+.configExtrato form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.configExtrato label{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.5em;
+    width: 90%;
+}
+
+.configExtrato input{
+    width: 100%;
+    outline: none;
+    height: 25px;
+    padding: 0.5em;
+}
+
+.configExtrato input[type='range']{
+    cursor: pointer;
+}
+
+.configExtrato label > span{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 0.5em;
+}
+
+.configExtrato label > p{
+    width: 100%;
+    position: absolute;
+    text-align: end;
+    top: 16px;
+    right: 11px;
+}
+
+.configExtrato input[type='submit']{
+    background-color:rgba(2, 214, 230, 0.959);
+    transition: 0.5s;
+    border: none;
+    width: 109px;
+    height: 35px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 1em;
+
+}
+
+.configExtrato input[type='submit']:hover{
+    background-color: rgb(47, 238, 252);
+}
+
+.divButton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.divButton button{
+    background-color:rgba(2, 214, 230, 0.959);
+    transition: 0.5s;
+    border: none;
+    width: 109px;
+    height: 35px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.divButton button:hover{
+    background-color: red;
+    font-weight: bold;
+}
+
+.buttonsFilter{
+    display: flex;
+}
+
+.clearFilter{
+    margin-left: 1em;
+}
+
+.configExtrato h1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
+
+@media(max-width:919px){
+    .configExtrato{
+        width: 70%;
+    }
+}
+
+@media(max-width:604px){
+    .configExtrato h1{
+        font-size: 25px;
+    }
+
+    .configExtrato label > span{
+        font-size: 16px;
+    }
+
+    .configExtrato input[type='submit']{
+        width: 85px;
+        height: 30px;
+        font-size: 11px;  
+    }
+
+    .divButton button{
+        width: 85px;
+        height: 30px;
+        font-size: 11px; 
+    }
+
+    .configExtrato label > p{
+        font-size: 14px;
+    }
+    
+}
+
+@media(max-width:380px){
+    .configExtrato{
+        width: 85%;
+    }
+}
+
+@media(max-height:571px){
+    .configExtrato{
+        overflow-y: scroll;
+    }
+}

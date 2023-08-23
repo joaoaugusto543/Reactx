@@ -1,0 +1,51 @@
+.notFound{
+    width: 63%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.notFound img{
+    animation: rotate 3s infinite linear;
+}
+
+.notFound h2{
+    padding-top: 1em;
+}
+
+.notFound h1{
+    padding-bottom:1em ;
+}
+
+@keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@media(max-width:919px){
+    .notFound{
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media(max-width:440px){
+    .notFound{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .notFound img{
+        width: 200px;
+    }
+    
+    .notFound h2{
+       font-size: 20px;
+    }
+    
+    .notFound h1{
+        font-size: 20px;
+    }
+}

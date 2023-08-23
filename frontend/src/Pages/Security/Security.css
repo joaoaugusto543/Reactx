@@ -1,0 +1,106 @@
+.security{
+    width: 65%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.security h1{
+    margin-top: 1em;
+}
+
+.securityForm{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    width: 50%;
+}
+
+.security label{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.security span{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0.3em;
+    padding-left: 0;
+}
+
+.security input[type='password'],.security input[type='text']{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+    padding: 0.2em;
+}
+
+.security input[type='submit']{
+    height: 45px;
+    width: 150px;
+    margin:1em 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    background-color: rgba(2, 214, 230, 0.959);
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorSecurity{
+    padding-top: 1em;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media (max-width:919px){
+    .security{
+        width: 100%;
+    }
+}
+
+@media (max-width:524px){
+    .securityForm{
+        width: 80%;
+    }
+
+    .security h1{
+        font-size: 25px;
+    }
+
+    .security span{
+        font-size: 16px;
+    }
+
+    .security input[type='password'], .security input[type='text'] {
+        width: 100%;
+        height: 30px;
+        font-size: 14px;
+        padding: 0.2em;
+    }
+
+    .security input[type='submit']{
+        height: 40px;
+        width: 140px;
+    }
+}
+
+@media (max-width:390px){
+    .security input[type='submit']{
+        height: 35px;
+        width: 130px;
+    }
+}

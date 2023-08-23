@@ -1,0 +1,178 @@
+nav{
+    height: 100vh;
+    background-color: #002d71;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: #222 -1px 5px 9px 8px;
+    z-index: 58;
+    transition: 0.5s;
+    transform: translateX(0);
+}
+
+.logo{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+}
+
+.navLinks {
+    list-style-type: none;
+    width: 100%;
+}
+
+.navLinks li{
+    width: 100%;
+}
+
+#last{
+    border-bottom: none;
+}
+
+.navLinks a,.logout{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    text-align: center;
+    padding: 1em 2em;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+}
+
+.logout{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.navLinks svg{
+    padding-right:0.3em ;
+    font-size: 40px;
+}
+
+.navLinks a:hover,.logout:hover{
+    background-color: #186ab9;
+}
+
+.active{
+    background-color: #186ab9;
+}
+
+#userNavBar svg{
+    font-size: 30px;
+}
+
+.buttonNavBar{
+    display: none;
+}
+
+.buttonNavBar svg{
+    color: #000;
+}
+
+.money svg{
+    font-size: 40px;
+    padding-right: 0;
+}
+
+.block{
+    display: block;
+}
+
+.none{
+    display: none;
+}
+
+@media (max-width:919px){
+    nav{
+        position: fixed;
+        width: 70%;
+        transform: translateX(-110%);
+
+    }
+
+    .buttonNavBar{
+        position: absolute;
+        top:11px;
+        left: 11px;
+        z-index: 110;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .buttonOpenNavBar{
+        display: block;
+    }
+
+    .buttonNavBar svg{
+        font-size: 36px;
+    }
+}
+
+@media (max-height:578px){
+    nav{
+        overflow-y: scroll;
+    }
+
+    nav::-webkit-scrollbar{
+        background-color: transparent;
+        width: 5px;
+    }
+    
+    nav::-webkit-scrollbar-thumb{
+        background-color: #0f67b9;
+        border-radius: 30px;
+        font-size: 10px;
+    }
+}
+@media (max-width:461px){
+    .buttonNavBar svg{
+        font-size: 25px;
+    }
+
+    .logo{
+        width: 150px;
+    }
+
+    .navLinks svg{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:424px){
+    .navLinks a,.logout{
+        font-size: 16px;
+    }
+
+    .logo{
+        width: 150px;
+        margin-top: 2em;
+    }
+
+    #userNavBar svg{
+        font-size: 30px;
+        padding-right: 0.5em;
+    }
+}
+
+
+@media (max-width:338px){
+    .navLinks a,.logout{
+        font-size: 14px;
+    }
+
+    .navLinks svg{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:293px){
+    nav{
+        width: 90%;
+    }
+}
